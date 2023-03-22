@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main()
+{
+int height[50];
+height[0]=23;
+height[1]=76;
+height[2]=45;
+for(i=0;i<3;i++)
+{
+printf("%d\n",height[i]);
+}
+}
