@@ -14,3 +14,15 @@ int main()
     printf("Reverse of the given number %d",reverse);
     return 0;
 }
+  
+  
+  
+  out put:
+  
+  Enter a number for find reverse
+369852
+You entered 369852
+Reverse of the given number 258963
+--------------------------------
+Process exited after 3.444 seconds with return value 0
+Press any key to continue . . .
