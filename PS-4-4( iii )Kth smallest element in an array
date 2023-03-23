@@ -17,3 +17,10 @@ int main()
            kthSmallest(arr, N, K));
     return 0;
 }
+
+
+
+
+out put:
+
+
