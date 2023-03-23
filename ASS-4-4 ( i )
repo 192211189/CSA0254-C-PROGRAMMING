@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int num1, num2, num3, max;
+    printf("Enter three numbers: ");
+    scanf("%d %d %d", &num1, &num2, &num3);
+    max = (num1 > num2) ? (num1 > num3 ? num1 : num3) : (num2 > num3 ? num2 : num3);
+    printf("Maximum number is: %d", max);
+    
+    return 0;
+}
+
+out put:
+Enter three numbers: 3
+1
+2
+3Maximum number is: 3
