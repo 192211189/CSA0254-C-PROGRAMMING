@@ -1,0 +1,24 @@
+#include <stdio.h>  
+int main()  
+{  
+    int num, i, sum = 0; 
+    printf(" Enter a positive number: ");  
+    scanf("%d", &num); 
+    for (i = 0; i <= num; i++)  
+    {  
+        sum = sum + i;   
+    }
+    printf("\n Sum of the first %d number is: %d", num, sum);    
+	return 0; 
+}  
+
+
+out put :
+
+
+ Enter a positive number: 25
+
+ Sum of the first 25 number is: 325
+--------------------------------
+Process exited after 3.612 seconds with return value 0
+Press any key to continue . . .
