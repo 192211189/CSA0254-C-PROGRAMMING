@@ -21,3 +21,19 @@ int main()
 
   return 0;
 }
+
+
+
+out put : 
+
+Enter the number of elements (1 to 100): 6
+Enter number1: 3
+Enter number2: 6
+Enter number3: 9
+Enter number4: 8
+Enter number5: 5
+Enter number6: 2
+Largest element = 9.00
+--------------------------------
+Process exited after 20.13 seconds with return value 0
+Press any key to continue . . .
