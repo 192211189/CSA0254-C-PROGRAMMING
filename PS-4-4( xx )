@@ -1,0 +1,77 @@
+#include <stdio.h>
+main(void)
+{
+	float a,b;
+	int c,d;
+	again:
+	printf("Enter the value of a : ");
+	scanf("%f",&a);
+	printf("Enter the value of b : ");
+	scanf("%f",&b);
+	choice:
+	printf("Enter\n1 for Addition\n2 for subraction\n3 for multiplication\n4 for division\n");
+	printf("Enter your choice : ");
+	scanf("%d",&c);
+	switch(c)
+	{
+		case 1:printf("%f + %f = %.3f",a,b,a+b);break;
+		case 2:printf("%f - %f = %.3f",a,b,a-b);break;
+		case 3:printf("%f X %f = %.3f",a,b,a*b);break;
+		case 4:printf("%f / %f = %.3f",a,b,a/b);break;
+		default:
+			printf("\nEnter a valid choice");
+			goto choice;
+	}
+	printf("\nDo you want to use the calculater again !\n");
+	loop:
+	printf("\nEnter\n1 if yes\n0 if no\n");
+	scanf("%d",&d);
+	if(d==1)
+	{
+		goto again;
+	}
+	else if(d==0)
+	{
+		printf("thank you for using simple calculater !");
+	}
+	else
+	{
+		printf("Invalid choice\nchoose again");
+		goto loop;
+	}
+}
+
+
+
+out put:
+
+
+Enter the value of a : 5
+Enter the value of b : 6
+Enter
+1 for Addition
+2 for subraction
+3 for multiplication
+4 for division
+Enter your choice : 4
+5.000000 / 6.000000 = 0.833
+Do you want to use the calculater again !
+
+Enter
+1 if yes
+0 if no
+1
+Enter the value of a : 5
+Enter the value of b : 6
+Enter
+1 for Addition
+2 for subraction
+3 for multiplication
+4 for division
+Enter your choice : 3
+5.000000 X 6.000000 = 30.000
+Do you want to use the calculater again !
+
+Enter
+1 if yes
+0 if no
