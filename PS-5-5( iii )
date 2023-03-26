@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() 
+{
+const int  value = 10;
+int data;
+data =value*value;
+printf("value of data : %d",value);
+return 0;
+}
+
+out put:
+
+value of data : 10
