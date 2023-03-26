@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main ()
+{
+    int a;
+
+    auto test = [value=a]()
+    {
+        return value++;
+    };
+
+    int res = test();
+
+    return 0;
+}
+This code w
